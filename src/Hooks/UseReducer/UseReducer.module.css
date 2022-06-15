@@ -1,0 +1,59 @@
+.Wrapper {
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  -webkit-box-shadow: -1px -4px 40px 21px rgba(214, 207, 214, 1);
+  -moz-box-shadow: -1px -4px 40px 21px rgba(214, 207, 214, 1);
+  box-shadow: -1px -4px 40px 21px rgba(214, 207, 214, 1);
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.counter span {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.count {
+  color: gray;
+}
+
+.count1 {
+  color: darkblue;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input input {
+  border-radius: 8px;
+  border: 2px solid darkblue;
+  padding: 10px;
+  transition: 0.2s ease;
+}
+
+.input input:focus {
+  outline: darkblue;
+  transform: scale(110%);
+  resize: none;
+}
+
+input::placeholder {
+  font-weight: 600;
+  font-size: 15px;
+}

@@ -1,0 +1,58 @@
+.Wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+}
+
+.container {
+  padding: 100px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px -4px 40px 21px rgba(214, 207, 214, 1);
+  -moz-box-shadow: -1px -4px 40px 21px rgba(214, 207, 214, 1);
+  box-shadow: -1px -4px 40px 21px rgba(214, 207, 214, 1);
+}
+
+form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inputField input {
+  border-radius: 8px;
+  border: 2px solid darkblue;
+  padding: 10px;
+  transition: 0.2s ease;
+}
+
+.inputField input:focus {
+  outline: darkblue;
+  transform: scale(110%);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn button {
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
